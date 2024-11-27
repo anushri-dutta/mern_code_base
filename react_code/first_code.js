@@ -1,5 +1,8 @@
 export default function First(){
+    var item = "Item1012"
     return (
-        <div>Hello</div>
+        <div>
+            <p>Item Name : {item}</p>
+        </div>
     );
 }
